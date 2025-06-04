@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Sarthak Karale</title>
+    
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    background-color: #705a10;
+    color:rgb(240, 244, 232);
+    padding: 20px;
+   
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #9a7c25;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #070101;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: #080000;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #0b0101;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0073e6;
+    color: #faf7f7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border:2px solid black;
+}
+
+.contact-form button:hover {
+    background-color: #005bb5;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media h2 {
+    font-size: 1.75em;
+    color: #070101;
+    margin-bottom: 10px;
+}
+
+.social-media .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.social-media .icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+.back{
+        border: 1px solid black;
+        color: black;
+        height: 30px;
+        width: 40px;
+        background-color: #a270ee;
+        border-radius: 20%;
+        
+    }
+     .back a{
+        color: rgb(0, 8, 8);
+        text-decoration: none;
+        margin-left: 2px;
+    }
+
+     .back a:hover{
+        color: rgb(249, 253, 253);
+        background-color: #805cb7;
+        margin-left: 2px;
+    }
+.social-media .icons a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.social-media .icons a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color: #080000;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <section class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="social-media">
+            <h2>Connect with me</h2>
+            <div class="icons">
+                <a href="">Linkedin
+                </a>
+               <a href="">Facebook</a>
+                </a>
+                <a href="">Instagram</a>
+                </a>
+               <a href="">Twitter</a>
+            </div>
+        </section>
+        <div class="back">
+            <a href="sk.html">Back</a>
+        </div>
+    </div>
+    
+</body>
+</html>

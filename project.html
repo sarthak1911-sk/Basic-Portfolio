@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sarthak Karale</title>
+    <style>
+    /* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    background-color: #5c2d53;
+    color:black;
+    padding: 20px;
+    
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color:rgb(133, 133, 172);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color:black;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background: #c1c38c;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: calc(50% - 10px);
+    border: 2px solid black;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h2 {
+    font-size: 1.5em;
+    color:black;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    color:rgb(22, 18, 18);
+    margin-bottom: 20px;
+}
+
+.project-link {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.container .back{
+        border: 1px solid black;
+        color: black;
+        height: 30px;
+        width: 40px;
+        background-color: #a270ee;
+        border-radius: 20%;
+        margin-top: 15px;;
+    }
+     .back a{
+        color: rgb(0, 8, 8);
+        text-decoration: none;
+        margin-left: 2px;
+    }
+
+     .back a:hover{
+        color: rgb(249, 253, 253);
+        background-color: #805cb7;
+        margin-left: 2px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Projects</h1>
+        </header>
+        <section class="projects">
+            <div class="project">
+                
+                <div class="project-info">
+                    <h2>1. Smart Home Automation System</h2>
+                    <p>Developed a Smart Home Automation System using IoT and cloud computing. The system allows users to control home appliances remotely via a mobile app, enhancing convenience and energy efficiency.</p>
+                    <a href="project1-link.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                
+                <div class="project-info">
+                    <h2>2. AI-Powered Chatbot</h2>
+                    <p>Created an AI-powered chatbot using natural language processing (NLP) and machine learning algorithms. The chatbot can understand and respond to user queries in real-time, providing customer support and information retrieval.</p>
+                    <a href="project2-link.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+               
+                <div class="project-info">
+                    <h2>3. Personal Portfolio Website</h2>
+                    <p>Designed and implemented a personal portfolio website using HTML, CSS, and JavaScript. The website highlights my skills, projects, and professional experience, serving as an online resume and portfolio.</p>
+                    <a href="project1-link.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                
+                <div class="project-info">
+                    <h2>4. Data Visualization Dashboard</h2>
+                    <p>Built a data visualization dashboard using Python and D3.js to analyze and present complex datasets. The dashboard provides interactive visual insights, helping users to understand trends and patterns in the data.</p>
+                    <a href="project2-link.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+        <div class="back">
+            <a href="sk.html">Back</a>
+        </div>
+    </div>
+    
+</body>
+</html
